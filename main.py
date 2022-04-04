@@ -1,3 +1,3 @@
-from my_module.my_file import DEADLINE
+from encryption.key import DEADLINE
 
 print(DEADLINE)
