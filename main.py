@@ -1,3 +1,6 @@
-from encryption.key import DEADLINE
+from encryption.key import Key
+from encryption.vigenere import VigenereCypher
 
-print(DEADLINE)
+key = Key('qwerty')
+
+vc = VigenereCypher(key)
